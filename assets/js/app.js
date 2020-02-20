@@ -20,7 +20,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Greeter from "./greeter";
+import Chat from "./chat";
 
-const greeting = document.getElementById("greeting");
-ReactDOM.render(<Greeter name="Phoenix" />, greeting);
+const main = document.getElementById("main");
+ReactDOM.render(<Chat name="Phoenix" />, main);
